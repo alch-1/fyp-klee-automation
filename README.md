@@ -13,8 +13,7 @@ and its severity.
 - Analyse the accuracy of KLEE’s ability to identify bugs from DARPA repository. 
 
 # Tools used
-1. KLEE: Primary software our tool will be built for. Self-directed learning required for the usage of KLEE based on the 
-KLEE tutorials provided. 
+1. KLEE: Primary software our tool will be built for. 
 2. Docker: Part of our development and testing environment. 
 3. GitHub: Version control tool. 
 4. Python: The programming language our team will be using to build the tool. 
