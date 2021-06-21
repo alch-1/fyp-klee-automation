@@ -2,11 +2,11 @@
 Final year Cybersecurity project for SMU's Information Systems course
 
 # Project Outline
-We are to build a python tool that automates the instrumenting of a batch of programs provided by DARPA1. Our tool 
+We are to build a python tool that automates the instrumenting of a batch of programs provided by DARPA. Our tool 
 then makes use of KLEE to perform symbolic execution on a batch of programs to generate a set of test cases which allows 
 the user to find bugs in these programs.  
 - KLEE is a dynamic symbolic execution engine built on top of the LLVM compiler infrastructure that can find bugs 
-during execution2.  
+during execution.  
 Additionally, we will perform analysis on the output of KLEE.  
 - We will explore if the bugs identified can potentially be used as vulnerabilities, and if yes, what kind of vulnerabilities, 
 and its severity.  
