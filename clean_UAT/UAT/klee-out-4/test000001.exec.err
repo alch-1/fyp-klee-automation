@@ -1,0 +1,14 @@
+Error: memory error: out of bound pointer
+File: testoob.c
+Line: 13
+assembly.ll line: 31
+Stack:
+        #031 in main () at testoob.c:13
+Info:
+        address: (Add w64 94496792789240
+          (Mul w64 4
+                   (SExt w64 (ReadLSB w32 0 number1))))
+        example: 94496792789244
+        range: [94488202854648, 94505382723828]
+        next: object at 47454491352984 of size 4
+                MO0[4] (no allocation info)

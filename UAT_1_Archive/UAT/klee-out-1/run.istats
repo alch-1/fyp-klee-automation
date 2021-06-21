@@ -1,0 +1,42 @@
+version: 1
+creator: klee
+pid: 45
+cmd: uat_test2_annotated.bc
+
+
+positions: instr line
+event: Icov : CoveredInstructions
+event: Forks : Forks
+event: Ireal : InstructionRealTimes
+event: Itime : InstructionTimes
+event: I : Instructions
+event: UCdist : MinDistToUncovered
+event: Rtime : ResolveTime
+event: States : States
+event: Iuncov : UncoveredInstructions
+event: Q : Queries
+event: Qiv : QueriesInvalid
+event: Qv : QueriesValid
+event: Qtime : QueryTime
+events: Icov Forks Ireal Itime I UCdist Rtime States Iuncov Q Qiv Qv Qtime 
+ob=assembly.ll
+fl=uat_test2_annotated.c
+fn=main
+16 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+17 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+18 10 1 0 0 0 1 0 0 0 0 0 0 0 0 
+19 12 1 0 0 0 1 0 0 0 0 0 0 0 0 
+20 13 1 0 0 0 1 0 0 0 0 0 0 0 0 
+21 13 1 0 0 0 1 0 0 0 0 0 0 0 0 
+22 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+23 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+24 15 1 0 0 0 1 0 0 0 0 0 0 0 0 
+25 16 1 0 0 0 1 0 0 0 0 0 0 0 0 
+26 16 1 0 0 0 1 0 0 0 0 0 0 0 0 
+27 18 1 0 0 0 1 0 0 0 0 0 0 0 0 
+28 18 1 0 0 0 1 0 0 0 0 0 0 0 0 
+29 18 1 0 0 0 1 0 0 0 0 0 0 0 0 
+30 19 1 0 0 0 1 0 0 0 0 0 0 0 0 
+31 19 1 0 0 0 1 0 0 0 0 0 0 0 0 
+32 19 1 0 0 0 1 0 0 0 0 0 0 0 0 
+33 21 1 0 0 0 1 0 0 0 0 0 0 0 0 

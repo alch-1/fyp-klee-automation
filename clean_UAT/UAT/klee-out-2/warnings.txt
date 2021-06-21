@@ -1,0 +1,4 @@
+KLEE: WARNING: undefined reference to function: gets
+KLEE: WARNING: undefined reference to function: printf
+KLEE: WARNING ONCE: calling external: printf(94285146107600) at uat_test3_annotated.c:11 10
+KLEE: WARNING ONCE: calling external: gets(94285145771296) at uat_test3_annotated.c:17 23

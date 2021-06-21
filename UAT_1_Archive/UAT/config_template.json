@@ -1,0 +1,23 @@
+{
+"uat_test1.c":
+        [
+        {"main": ["s"]}
+        ],
+"uat_test2.c":
+        [
+        {"main": ["g"]}
+        ],
+"uat_test3.c":
+        [
+        {"count_vowels": ["flag"]}
+        ],
+"uat_test4.c":
+        [
+        {"main": ["number1", "number2"]}
+        ],
+"uat_test5.c":
+        [
+        {"main": ["num"]}
+        ]
+}
+

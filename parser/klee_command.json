@@ -1,0 +1,14 @@
+{
+"/home/klee/POC/program4":
+	[
+	{"klee_flags": ["--external-calls=all"]}
+	],
+"/home/klee/POC/program5":
+	[
+	{"klee_flags": ["--external-calls=all"]}
+	],
+"/home/klee/cb-multios/challenges/Palindrome":
+	[
+	{"klee_flags": ["-link-llvm-lib=/home/klee/cb-multios/build64-backup/include/libcgc.so.bc -link-llvm-lib=/home/klee/cb-multios/build64-backup/include/tiny-AES128-C/libtiny-AES128-C.so.bc --simplify-sym-indices --write-cvcs --write-cov --output-module --disable-inlining --optimize --use-forked-solver --use-cex-cache --only-output-states-covering-new --max-sym-array-size=4096 --max-time=300 --watchdog --max-memory-inhibit=false --max-static-fork-pct=1 --max-static-solve-pct=1 --max-static-cpfork-pct=1 --switch-type=internal --search=random-path --search=nurs:covnew --use-batching-search --batch-instructions=10000 --posix-runtime Palindrome.bc --sym-stdin 128 --sym-stdout"]}
+	]
+}

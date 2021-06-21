@@ -1,0 +1,6 @@
+Error: external call with symbolic argument: printf
+File: uat_test5_annotated.c
+Line: 20
+assembly.ll line: 48
+Stack: 
+	#000000048 in main () at uat_test5_annotated.c:20

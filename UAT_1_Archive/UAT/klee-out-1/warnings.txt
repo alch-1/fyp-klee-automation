@@ -1,0 +1,4 @@
+KLEE: WARNING: undefined reference to function: printf
+KLEE: WARNING: undefined reference to function: strcpy
+KLEE: WARNING ONCE: calling external: strcpy(93885287571712, 93885286826344) at uat_test2_annotated.c:16 5
+KLEE: WARNING ONCE: calling external: printf(93885287845920, 93885287571712) at uat_test2_annotated.c:19 39

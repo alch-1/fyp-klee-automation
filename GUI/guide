@@ -1,0 +1,6 @@
+# WINDOWS GUIDE
+1. Download and install XMing on your Windows machine
+2. Run XMing
+3. Run ipconfig /all and find your local IP address, on Windows machine (not in docker)
+4. In docker, run export DISPLAY=local IP address:0.0 (needs to be done every time docker runs) and append :0.0 at the end
+5. On first run, sudo apt install python3-tk to install TKinter

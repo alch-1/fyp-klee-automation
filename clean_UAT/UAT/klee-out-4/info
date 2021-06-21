@@ -1,0 +1,22 @@
+klee uat_test5_annotated.bc
+PID: 975
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2021-03-12 07:43:36
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2021-03-12 07:43:41
+Elapsed: 00:00:05
+KLEE: done: explored paths = 206
+KLEE: done: avg. constructs per query = 1343
+KLEE: done: total queries = 411
+KLEE: done: valid queries = 204
+KLEE: done: invalid queries = 207
+KLEE: done: query cex = 411
+
+KLEE: done: total instructions = 3488
+KLEE: done: completed paths = 206
+KLEE: done: generated tests = 206

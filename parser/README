@@ -1,0 +1,7 @@
+step 1: use write_output.sh
+step 2: use extract.py
+
+todo: 
+
+don't use .sh file to write ast. (find a way to write to a file in python instead)
+combine both files into one python file

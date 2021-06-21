@@ -1,0 +1,4 @@
+KLEE: Using STP solver backend
+KLEE: ERROR: uat_test5_annotated.c:20: external call with symbolic argument: printf
+KLEE: NOTE: now ignoring this error at this location
+KLEE: halting execution, dumping remaining states
