@@ -1,4 +1,4 @@
-# final-year-project
+# Final Year Cybersecurity Project
 Final year Cybersecurity project for SMU's Information Systems course
 
 # Project Outline
