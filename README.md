@@ -1,6 +1,8 @@
 # Final Year Cybersecurity Project
 Final year Cybersecurity project for SMU's Information Systems course
 
+For more details, please refer to the final report and/or presentation slides
+
 # Project Outline
 We are to build a python tool that automates the instrumenting of a batch of programs provided by DARPA. Our tool 
 then makes use of KLEE to perform symbolic execution on a batch of programs to generate a set of test cases which allows 
